@@ -1,0 +1,29 @@
+#include "Max.hpp"
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a, b, c, d ;
+    cin>>a>>b>>c>>d;
+    int max,min;
+    max=min=a;
+    
+    if(b>max)
+        max=b;
+    if(c>max)
+        max=c;
+    if(d>max)
+        max=d;
+    if(b<min)
+        b=min;
+    if(c<min)
+        c=min;
+    if(d<min)
+        d=min;
+    cout<<max<<endl;
+    cout<<min<<endl;
+    
+    return 0;
+    
+    
+}
