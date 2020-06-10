@@ -1,0 +1,21 @@
+#include "summarise number.hpp"
+#include <iostream>
+using namespace std;
+int main()
+{
+    int number;
+    int total=0;
+    int value;
+    
+    cin>>number;
+    if(number>0)
+    {
+        for(int i=1;i<=number;++i)
+        {
+        cin>>value;
+        total=total+value;
+        }
+        
+        cout<<total<<endl;
+    }
+}
